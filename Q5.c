@@ -21,13 +21,14 @@ int main(){
 
         printf("%d eh maior que %d\n", maior, menor);
 
-        if(maior % menor == 0 ){
-            printf("%d eh multiplo de %d\n", maior, menor);
-        } else {
-            printf("%d nao eh multiplo de %d\n", maior, menor);
+        if (n1 > 0 && n2 > 0){
+            if(maior % menor == 0 ){
+                printf("%d eh multiplo de %d\n", maior, menor);
+            } 
+            else {
+                printf("%d nao eh multiplo de %d\n", maior, menor);
+            }
         }
     }
-
-
     return 0;
 }
